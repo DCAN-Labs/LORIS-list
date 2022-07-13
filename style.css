@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Dinot';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dinot'),
+    url('/fonts/Regular.woff2') format('woff2'),
+    url('/fonts/Regular.woff') format('woff'),
+    url('/fonts/Regular.ttf') format('truetype'),
+    url('/fonts/Regular.eot') format('embedded-opentype');
+}
+
+body {
+    color: white;
+    background-color: #333333; /* farBackgroundGrey */
+    font-family: 'Dinot', 'Georgia', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
