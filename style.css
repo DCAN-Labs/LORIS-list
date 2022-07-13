@@ -3,10 +3,10 @@
     font-style: normal;
     font-weight: 400;
     src: local('Dinot'),
-    url('/fonts/Regular.woff2') format('woff2'),
-    url('/fonts/Regular.woff') format('woff'),
-    url('/fonts/Regular.ttf') format('truetype'),
-    url('/fonts/Regular.eot') format('embedded-opentype');
+    url('fonts/DINOT/Regular.woff2') format('woff2'),
+    url('fonts/DINOT/Regular.woff') format('woff'),
+    url('fonts/DINOT/Regular.ttf') format('truetype'),
+    url('fonts/DINOT/Regular.eot') format('embedded-opentype');
 }
 
 body {
@@ -15,6 +15,7 @@ body {
     font-family: 'Dinot', 'Georgia', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    zoom: 2; 
 }
 
 a:link {
